@@ -1,0 +1,107 @@
+h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 50px;
+  text-shadow: 2px 2px 1px #b1b1b1;
+}
+
+.main-body {
+  background-color: #cccdcd;
+  border-radius: 75px;
+  margin: 20px auto;
+  max-width: 700px;
+  padding: 20px 50px;
+}
+/* .form-input {
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+} */
+
+.search-bar-input {
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+}
+
+.search-icon {
+  color: #b1b1b1 !important;
+  font-size: 19px;
+  position: relative;
+  top: 10px;
+}
+
+.search-bar {
+  border: none;
+}
+
+.search-btn {
+  border: none;
+  border-radius: 20px;
+  background-color: #207178;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.location-btn {
+  border: none;
+  border-radius: 20px;
+  background-color: #3b9b6b;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.selected-city,
+.date,
+.forecast,
+.todays-temp {
+  color: #207178;
+}
+
+.selected-city {
+  font-weight: 700;
+}
+
+.date,
+.forecast {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.todays-icon {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.todays-temp {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 50px;
+  margin: 0 0 20px;
+}
+
+.degrees {
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  bottom: 30px;
+}
+
+.degree-link {
+  text-decoration: none;
+  color: #207178;
+}
+
+.more-info {
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+}
