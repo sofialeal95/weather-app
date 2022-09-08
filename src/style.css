@@ -105,3 +105,28 @@ h1 {
   font-size: 16px;
   line-height: 20px;
 }
+
+.future-day {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.weather-icon,
+.todays-icon {
+  color: #fff;
+  font-size: 30px;
+}
+
+.weather-icon {
+  margin: 10px auto 10px;
+}
+
+.future-temp {
+  color: #9d9c9c;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}

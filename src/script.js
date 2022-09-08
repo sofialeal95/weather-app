@@ -57,6 +57,7 @@ function displayCity(event) {
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", displayCity);
 
+//geolocation temp "current location"
 function getLocation(event) {
   event.preventDefault();
 
@@ -92,15 +93,17 @@ function getLocation(event) {
 let locationButton = document.querySelector("#current-location");
 locationButton.addEventListener("click", getLocation);
 
+//initial data to show base on Jacksonville
 function initialData(response) {
   let showTemp = document.querySelector("#todaysTemp");
   let showHumidity = document.querySelector("#humidity-percent");
   let showWind = document.querySelector("#wind-info");
   let humidityInfo = response.data.main.humidity;
   let windInfo = Math.round(response.data.wind.speed * 3.6);
+  let tempInfo = Math.round(response.data.main.temp);
   let showDescription = document.querySelector("#description");
   let defaultCity = document.querySelector("#selected-city");
-  showTemp.innerHTML = Math.round(response.data.main.temp);
+  showTemp.innerHTML = tempInfo;
   showHumidity.innerHTML = humidityInfo;
   showWind.innerHTML = windInfo;
   showDescription.innerHTML = response.data.weather[0].description;
